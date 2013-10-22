@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://pidah.github.io/sitemap.xml 
+Sitemap: http://www.devopsdiary.com/sitemap.xml 

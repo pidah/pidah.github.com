@@ -1,43 +1,43 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://pidah.github.io/blog/2013/05/07/hi/</loc>
+        <loc>http://www.devopsdiary.com/blog/2013/05/07/hi/</loc>
         <lastmod>2013-10-22T00:58:28+01:00</lastmod>
     </url>
     <url>
         <loc>
-            http://pidah.github.io/blog/2013/05/07/automated-deployment-of-aws-ec2-instances-with-vagrant-and-puppet/
+            http://www.devopsdiary.com/blog/2013/05/07/automated-deployment-of-aws-ec2-instances-with-vagrant-and-puppet/
         </loc>
         <lastmod>2013-10-22T00:58:28+01:00</lastmod>
     </url>
     <url>
         <loc>
-            http://pidah.github.io/blog/2013/05/16/deploying-node-dot-js-plus-nginx-plus-upstart-plus-monit-on-ec2-with-puppet-and-vagrant/
+            http://www.devopsdiary.com/blog/2013/05/16/deploying-node-dot-js-plus-nginx-plus-upstart-plus-monit-on-ec2-with-puppet-and-vagrant/
         </loc>
         <lastmod>2013-10-22T15:27:05+01:00</lastmod>
     </url>
     <url>
-        <loc>http://pidah.github.io/blog/2013/10/21/devops101-coming-soon/</loc>
+        <loc>http://www.devopsdiary.com/blog/2013/10/21/devops101-coming-soon/</loc>
         <lastmod>2013-10-22T00:58:28+01:00</lastmod>
     </url>
     <url>
-        <loc>http://pidah.github.io/blog/2013/10/22/wake-up-the-sun/</loc>
+        <loc>http://www.devopsdiary.com/blog/2013/10/22/wake-up-the-sun/</loc>
         <lastmod>2013-10-22T15:37:21+01:00</lastmod>
     </url>
     <url>
-        <loc>http://pidah.github.io/archives/</loc>
+        <loc>http://www.devopsdiary.com/archives/</loc>
         <lastmod>2013-10-22T15:37:21+01:00</lastmod>
     </url>
     <url>
-        <loc>http://pidah.github.io/blog/archives/</loc>
+        <loc>http://www.devopsdiary.com/blog/archives/</loc>
         <lastmod>2013-10-22T15:37:21+01:00</lastmod>
     </url>
     <url>
-        <loc>http://pidah.github.io/</loc>
+        <loc>http://www.devopsdiary.com/</loc>
         <lastmod>2013-10-22T15:37:21+01:00</lastmod>
     </url>
     <url>
-        <loc>http://pidah.github.io/robots.txt</loc>
+        <loc>http://www.devopsdiary.com/robots.txt</loc>
         <lastmod>2013-10-22T00:58:28+01:00</lastmod>
     </url>
 </urlset>
