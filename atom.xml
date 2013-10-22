@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[My Octopress Blog]]></title>
-  <link href="http://yoursite.com/atom.xml" rel="self"/>
-  <link href="http://yoursite.com/"/>
-  <updated>2013-10-22T00:17:29+01:00</updated>
-  <id>http://yoursite.com/</id>
+  <link href="http://pidah.github.io/atom.xml" rel="self"/>
+  <link href="http://pidah.github.io/"/>
+  <updated>2013-10-22T01:21:21+01:00</updated>
+  <id>http://pidah.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
     
@@ -14,10 +14,48 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Wake Up the Sun]]></title>
+    <link href="http://pidah.github.io/blog/2013/10/22/wake-up-the-sun/"/>
+    <updated>2013-10-22T01:20:00+01:00</updated>
+    <id>http://pidah.github.io/blog/2013/10/22/wake-up-the-sun</id>
+    <content type="html"><![CDATA[<p>Peering out through my son&rsquo;s bedroom window was nothing out there, but utter pitch darkness. Alas, the time was only 16:30. I sighed to myself &ndash; It was that time of the year again.</p>
+
+<p>I never really liked winter. The weather had dropped to below freezing point. You felt the chills in your knuckles, up your spine, under your feet and the cold whistling air all over your face. I dreaded having to alight every morning and walk 400yds to the train station on my commute to work. With my teeth chattering and body shivering trudging along the slippery snow path, I would contemplate whether my wife and I had made a good decision to migrate to England 6 years ago. I would often yearn for the sunny tropical climate that I was used to all-year round, in my home country. But I always said to myself, “the winter will soon be over and summer will be back again”. Yes indeed – In only 3 months’ time.</p>
+
+<p>I could hardly wait to run back home to my lovely wife and 3-year old son everyday. Their love and energy more than provided the warmth I needed to make it through yet another day. “Daddy, I want to go to the shops!” – The voice of my son cut through my self-loathing thoughts of despair, jolting me back into the present. I told him it was too late to go to the shops now, as the sun had gone down and it was now time for bed.</p>
+
+<p>My son boisterous with energy was always ready for an adventure in a heartbeat. As far as he was concerned, winter was simply fun time. He was not be-riddled with the many thoughts that shuttle through a parents mind on a school week-night. I was just pre-occupied with wrapping up the day and getting him into bed. Thankfully, there was one good thing about winter; the early fall of night always made it easier to convince him it was time to shutdown for the day.</p>
+
+<p>Thinking that the discussion was over and done with, I proceeded to draw the curtains and pick up the toys littered across the bedroom floor. Then he said, “Daddy all we have to do is wake up the sun and then we can go to the shop”. In a familiar reflex manner, I prepped myself and thought how I might do the fatherly-thing of seizing the opportunity to explain to my son a bit of science, breaking down how the celestial bodies played together la-di-da-di-da &ndash; to this curious toddler. After all, I had been around long enough to know that his line of reasoning was misaligned and would need a bit of tweaking.</p>
+
+<p>Then in a split-second his words hit me like a bolt of lightning – Wake up the sun!</p>
+
+<p>In my son&rsquo;s world there was nothing unfathomable about that idea; the sun could absolutely wake up and we could indeed hit the shops with the sun shining on us right at that moment. His paradigm had not been seared with earthly “experience”. Entertaining such a thought was normal, entirely possible and totally expected.</p>
+
+<p>My several years of being an Operations Engineer had taught me a lot about a related idea – Follow-the-sun-model. I had supported various Linux systems in a 24-hr follow-the-sun model where we would do a shift and handover to a team in a different time-zone to continue proving support to customers round the clock. I was pretty intimate with the practice of following the sun, perhaps too well. But the concept of waking up the sun was alien to me.</p>
+
+<p>Waking up the sun is all about viewing the world right side up. Envisioning the world, the way it should be. Bravely going after your dreams knowing fully well that your paradigm is indeed normal, entirely possible and firmly within reach.</p>
+
+<p>That has been the mantra for the startup journey my wife and I embarked on over a year ago. Well, to be honest mostly my wife and a little bit of me. You see, my wife is totally awesome. Yes I said so myself. She has one challenge though I have to admit – she is a first class citizen of the species of people branded “Creatives”.
+Let me spell it out, this means she can do everything &ndash; from photography, visual design, sewing, basket-making, fund-raising, business planning, public speaking, authoring, script-writing, guitar-strumming, hair-making, coding, farming, interior-decor, perfume-making, mixing awesome body creams and soaps and a whole slew of other things too numerous to mention.</p>
+
+<p>So after much deliberation, we finally settled on an industry that was overdue for a shake-up. It was time to wake up the sun. Driven by the pure desire to set the records straight, we recently launched our first startup, www.sheatruth.com</p>
+
+<p>We are truly excited about Sheatruth and the potential it holds. The journey so far has been chock-full of challenges, but the desire to shine the light on the personal body care industry was too great a dream to let down, and too precious an opportunity to pass-up. We firmly believe that people everywhere are worthy of true luxury, and want to put the care back in personal care products.</p>
+
+<p>I wish I could tell you that my son and I went ahead to go shopping that winter night, but the fairy tale didn&rsquo;t end that way I am afraid. However my son taught me an important lesson, I hope never to forget – rather than follow-the-sun, WAKE UP THE SUN!</p>
+
+<p>I don&rsquo;t know where you are in your journey, but we challenge you to look at the world around you again, only but this time around, with fresh eyes, the eyes of a three-year old and go wake up the sun.</p>
+
+<p>Isn&rsquo;t he just the cutest ever?</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[DevOps101 coming soon]]></title>
-    <link href="http://yoursite.com/blog/2013/10/21/devops101-coming-soon/"/>
+    <link href="http://pidah.github.io/blog/2013/10/21/devops101-coming-soon/"/>
     <updated>2013-10-21T23:47:00+01:00</updated>
-    <id>http://yoursite.com/blog/2013/10/21/devops101-coming-soon</id>
+    <id>http://pidah.github.io/blog/2013/10/21/devops101-coming-soon</id>
     <content type="html"><![CDATA[<p>I have ignored my blog for quite a while; not intentionally though. So much has been going on personally and professionally, that blogging has been totally squeezed out. But I am fixing that.</p>
 
 <p>So many tools and approaches have grown in the DevOps community. In the coming days I will be talking about them, so do stay tuned.</p>
@@ -30,9 +68,9 @@
   
   <entry>
     <title type="html"><![CDATA[Deploying nodejs nginx upstart monit redis on ec2 with puppet and vagrant]]></title>
-    <link href="http://yoursite.com/blog/2013/05/16/deploying-node-dot-js-plus-nginx-plus-upstart-plus-monit-on-ec2-with-puppet-and-vagrant/"/>
+    <link href="http://pidah.github.io/blog/2013/05/16/deploying-node-dot-js-plus-nginx-plus-upstart-plus-monit-on-ec2-with-puppet-and-vagrant/"/>
     <updated>2013-05-16T18:02:00+01:00</updated>
-    <id>http://yoursite.com/blog/2013/05/16/deploying-node-dot-js-plus-nginx-plus-upstart-plus-monit-on-ec2-with-puppet-and-vagrant</id>
+    <id>http://pidah.github.io/blog/2013/05/16/deploying-node-dot-js-plus-nginx-plus-upstart-plus-monit-on-ec2-with-puppet-and-vagrant</id>
     <content type="html"><![CDATA[<p>In a previous post I wrote about <a href="http://www.devopsdiary.com/blog/2013/05/07/automated-deployment-of-aws-ec2-instances-with-vagrant-and-puppet/">automating deployments on AWS Cloud instances with vagrant and puppet</a>. Today I will be describing how we deploy Node.js with nginx,redis, upstart, monit on ec2 using vagrant and puppet.</p>
 
 <p>Our developers are rewriting an existing application in Node.js and we basically needed a consistent environment to play with, which would mirror the target production environment as much as possible. So we picked out technology stack as follows:</p>
@@ -855,9 +893,9 @@ The nginx.conf file above specifies the web server should listen on port 80 and 
   
   <entry>
     <title type="html"><![CDATA[Automated deployment of AWS EC2 instances with vagrant and puppet]]></title>
-    <link href="http://yoursite.com/blog/2013/05/07/automated-deployment-of-aws-ec2-instances-with-vagrant-and-puppet/"/>
+    <link href="http://pidah.github.io/blog/2013/05/07/automated-deployment-of-aws-ec2-instances-with-vagrant-and-puppet/"/>
     <updated>2013-05-07T17:47:00+01:00</updated>
-    <id>http://yoursite.com/blog/2013/05/07/automated-deployment-of-aws-ec2-instances-with-vagrant-and-puppet</id>
+    <id>http://pidah.github.io/blog/2013/05/07/automated-deployment-of-aws-ec2-instances-with-vagrant-and-puppet</id>
     <content type="html"><![CDATA[<p>The DevOps landscape is continuously evolving at an ever-increasing pace. Some of the tools and approaches that I had gotten accustomed to have just gotten better providing me with more options to play with, which is always a good thing.</p>
 
 <p>One of the tools we use in our delivery process is vagrant by Mitchell Hashimoto. This allows us to provide all our developers an isolated environment to deploy and test applications on their local machines repeatedly and consistently.</p>
@@ -960,9 +998,9 @@ The nginx.conf file above specifies the web server should listen on port 80 and 
   
   <entry>
     <title type="html"><![CDATA[Hi!]]></title>
-    <link href="http://yoursite.com/blog/2013/05/07/hi/"/>
+    <link href="http://pidah.github.io/blog/2013/05/07/hi/"/>
     <updated>2013-05-07T12:22:00+01:00</updated>
-    <id>http://yoursite.com/blog/2013/05/07/hi</id>
+    <id>http://pidah.github.io/blog/2013/05/07/hi</id>
     <content type="html"><![CDATA[<p>Hi! my name is Peter Idah. I am a Linux DevOps Engineer currently based in London.</p>
 
 <p>I&rsquo;m setting up this blog for a few reasons &ndash; to help me keep track of things I am working on, things I am learning and to share this experience with the hope that the information will be handy to someone else.</p>
