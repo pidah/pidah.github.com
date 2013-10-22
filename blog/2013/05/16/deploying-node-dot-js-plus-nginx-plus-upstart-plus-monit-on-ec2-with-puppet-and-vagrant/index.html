@@ -5,12 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>My Octopress Blog</title>
+  <title>Deploying nodejs nginx upstart monit redis on ec2 with puppet and vagrant - My Octopress Blog</title>
   <meta name="author" content="Your Name">
 
   
-  <meta name="description" content="I have ignored my blog for quite a while; not intentionally though. So much has been going on personally and professionally, that blogging has been &hellip;">
-  
+  <meta name="description" content="In a previous post I wrote about automating deployments on AWS Cloud instances with vagrant and puppet. Today I will be describing how we deploy Node &hellip;">
+  <meta name="keywords" content="puppet,vagrant,aws,ec2,redis,nginx,upstart,monit,ubuntu,linux,cloud,automation,deployment">
 
   <!-- http://t.co/dKP3o1e -->
   <meta name="HandheldFriendly" content="True">
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://yoursite.com/">
+  <link rel="canonical" href="http://yoursite.com/blog/2013/05/16/deploying-node-dot-js-plus-nginx-plus-upstart-plus-monit-on-ec2-with-puppet-and-vagrant/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
    <link href="/stylesheets/data-table.css" media="screen, projection" rel="stylesheet" type="text/css" />
@@ -61,57 +61,12 @@
 </nav> -->
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article class="hentry" role="article">
   
-  
-  
-    <article>
-      
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2013/10/21/devops101-coming-soon/">DevOps101 Coming Soon</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-10-21T23:47:00+01:00" pubdate data-updated="true">Oct 21<span>st</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I have ignored my blog for quite a while; not intentionally though. So much has been going on personally and professionally, that blogging has been totally squeezed out. But I am fixing that.</p>
-
-<p>So many tools and approaches have grown in the DevOps community. In the coming days I will be talking about them, so do stay tuned.</p>
-
-<p>One thing that has kept me busy is my upcoming book on DevOps &ndash; DevOps 101. It&rsquo;s taken me quite a while to get it finished, but I am delighted that it would be out in a couple of weeks. I will be talking more about this in some upcoming posts, so do please check back.</p>
-
-<p>That&rsquo;s all I have to say for now. Thanks and have a great time!</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/05/16/deploying-node-dot-js-plus-nginx-plus-upstart-plus-monit-on-ec2-with-puppet-and-vagrant/">Deploying Nodejs Nginx Upstart Monit Redis on Ec2 With Puppet and Vagrant</a></h1>
+      <h1 class="entry-title">Deploying Nodejs Nginx Upstart Monit Redis on Ec2 With Puppet and Vagrant</h1>
     
     
       <p class="meta">
@@ -134,7 +89,7 @@
   </header>
 
 
-  <div class="entry-content"><p>In a previous post I wrote about <a href="http://www.devopsdiary.com/blog/2013/05/07/automated-deployment-of-aws-ec2-instances-with-vagrant-and-puppet/">automating deployments on AWS Cloud instances with vagrant and puppet</a>. Today I will be describing how we deploy Node.js with nginx,redis, upstart, monit on ec2 using vagrant and puppet.</p>
+<div class="entry-content"><p>In a previous post I wrote about <a href="http://www.devopsdiary.com/blog/2013/05/07/automated-deployment-of-aws-ec2-instances-with-vagrant-and-puppet/">automating deployments on AWS Cloud instances with vagrant and puppet</a>. Today I will be describing how we deploy Node.js with nginx,redis, upstart, monit on ec2 using vagrant and puppet.</p>
 
 <p>Our developers are rewriting an existing application in Node.js and we basically needed a consistent environment to play with, which would mirror the target production environment as much as possible. So we picked out technology stack as follows:</p>
 
@@ -952,154 +907,16 @@ The nginx.conf file above specifies the web server should listen on port 80 and 
 
 <p>That&rsquo;s all folks. Thanks for dropping by!</p>
 </div>
-  
-  
 
 
-    </article>
-  
-  
-    <article>
+  <footer>
+    <p class="meta">
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/05/07/automated-deployment-of-aws-ec2-instances-with-vagrant-and-puppet/">Automated Deployment of AWS EC2 Instances With Vagrant and Puppet</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
   
 
+<span class="byline author vcard">Posted by <span class="fn">Your Name</span></span>
 
-<time datetime="2013-05-07T17:47:00+01:00" pubdate data-updated="true">May 7<span>th</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>The DevOps landscape is continuously evolving at an ever-increasing pace. Some of the tools and approaches that I had gotten accustomed to have just gotten better providing me with more options to play with, which is always a good thing.</p>
-
-<p>One of the tools we use in our delivery process is vagrant by Mitchell Hashimoto. This allows us to provide all our developers an isolated environment to deploy and test applications on their local machines repeatedly and consistently.</p>
-
-<p>By default, vagrant runs on virtualbox virtual machines. But, recently vagrant has been extended to run on AWS EC2, as well as other environments. This move has already impacted our tool chain and there are a number of other interesting features like parallel provisioning on AWS on the horizon.</p>
-
-<p>So, to get started, you can get the latest version of vagrant (1.2.2 as of this post) at <a href="http://downloads.vagrantup.com/">http://downloads.vagrantup.com/</a> for your operating system.</p>
-
-<p>Then install the vagrant-aws plugin as follows &ndash;</p>
-
-<figure class='code'><figcaption><span>Install vagrant-aws plugin</span><a href='https://github.com/mitchellh/vagrant-aws'>link</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="err">$</span> <span class="n">vagrant</span> <span class="n">plugin</span> <span class="n">install</span> <span class="n">vagrant</span><span class="o">-</span><span class="n">aws</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>The next step is to setup your local environment with AWS credentials. Many projects would likely commit their Vagrant configuration to some version control repository, it&rsquo;s best to reference your local environment for the required keys. Add the following your local users&#8217; ~/.bash_profile file</p>
-
-<figure class='code'><figcaption><span>Configuring AWS Credentials on your local machine  </span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'> <span class="nb">export </span><span class="nv">AWS_ACCESS_KEY</span><span class="o">=</span><span class="s2">&quot;AKXXXXXXXXXXXXXXX&quot;</span>
-</span><span class='line'> <span class="nb">export </span><span class="nv">AWS_SECRET_KEY</span><span class="o">=</span><span class="s2">&quot;XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX&quot;</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>Then we need to source the ~/.profile to make the variables available in the current shell session</p>
-
-<figure class='code'><figcaption><span>source the ~/.profile file   </span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'> <span class="nb">source</span> ~/.profile
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>Every AWS EC2 instance would have an ssh key pair. I keep my ssh private key in  ~/.ssh/development.pem</p>
-
-<p>Now that we have our local environment in shape, we need to setup our vagrant configuration file &ndash; Vagrantfile. Copy this example Vagrantfile to your project root and modify with your details accordingly &ndash;</p>
-
-<figure class='code'><figcaption><span>Example Vagrantfile for an AWS EC2 instance</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-<span class='line-number'>17</span>
-<span class='line-number'>18</span>
-<span class='line-number'>19</span>
-<span class='line-number'>20</span>
-<span class='line-number'>21</span>
-<span class='line-number'>22</span>
-</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="no">Vagrant</span><span class="o">.</span><span class="n">configure</span><span class="p">(</span><span class="s2">&quot;2&quot;</span><span class="p">)</span> <span class="k">do</span> <span class="o">|</span><span class="n">config</span><span class="o">|</span>
-</span><span class='line'>  <span class="n">config</span><span class="o">.</span><span class="n">vm</span><span class="o">.</span><span class="n">box</span> <span class="o">=</span> <span class="s2">&quot;ubuntu_aws&quot;</span>
-</span><span class='line'>  <span class="n">config</span><span class="o">.</span><span class="n">vm</span><span class="o">.</span><span class="n">box_url</span> <span class="o">=</span> <span class="s2">&quot;https://github.com/mitchellh/vagrant-aws/raw/master/dummy.box&quot;</span>
-</span><span class='line'>  <span class="n">config</span><span class="o">.</span><span class="n">vm</span><span class="o">.</span><span class="n">synced_folder</span> <span class="s2">&quot;../.&quot;</span><span class="p">,</span> <span class="s2">&quot;/vagrant&quot;</span><span class="p">,</span> <span class="nb">id</span><span class="p">:</span> <span class="s2">&quot;vagrant-root&quot;</span>
-</span><span class='line'>  <span class="n">config</span><span class="o">.</span><span class="n">vm</span><span class="o">.</span><span class="n">provider</span> <span class="ss">:aws</span> <span class="k">do</span> <span class="o">|</span><span class="n">aws</span><span class="p">,</span> <span class="n">override</span><span class="o">|</span>
-</span><span class='line'>    <span class="n">aws</span><span class="o">.</span><span class="n">keypair_name</span> <span class="o">=</span> <span class="s2">&quot;development&quot;</span>
-</span><span class='line'>    <span class="n">override</span><span class="o">.</span><span class="n">ssh</span><span class="o">.</span><span class="n">private_key_path</span> <span class="o">=</span> <span class="s2">&quot;~/.ssh/development.pem&quot;</span>
-</span><span class='line'>    <span class="n">aws</span><span class="o">.</span><span class="n">instance_type</span> <span class="o">=</span> <span class="s2">&quot;t1.micro&quot;</span>
-</span><span class='line'>    <span class="n">aws</span><span class="o">.</span><span class="n">security_groups</span> <span class="o">=</span> <span class="s2">&quot;development&quot;</span>
-</span><span class='line'>    <span class="n">aws</span><span class="o">.</span><span class="n">ami</span> <span class="o">=</span> <span class="s2">&quot;ami-c5afc2ac&quot;</span>
-</span><span class='line'>    <span class="n">override</span><span class="o">.</span><span class="n">ssh</span><span class="o">.</span><span class="n">username</span> <span class="o">=</span> <span class="s2">&quot;ubuntu&quot;</span>
-</span><span class='line'>    <span class="n">aws</span><span class="o">.</span><span class="n">tags</span> <span class="o">=</span> <span class="p">{</span>
-</span><span class='line'>      <span class="s1">&#39;Name&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;Web App&#39;</span><span class="p">,</span>
-</span><span class='line'>     <span class="p">}</span>
-</span><span class='line'>  <span class="k">end</span>
-</span><span class='line'>
-</span><span class='line'>  <span class="n">config</span><span class="o">.</span><span class="n">vm</span><span class="o">.</span><span class="n">provision</span> <span class="ss">:puppet</span> <span class="k">do</span> <span class="o">|</span><span class="n">puppet</span><span class="o">|</span>
-</span><span class='line'>    <span class="n">puppet</span><span class="o">.</span><span class="n">manifests_path</span> <span class="o">=</span> <span class="s2">&quot;puppet/manifests&quot;</span>
-</span><span class='line'>    <span class="n">puppet</span><span class="o">.</span><span class="n">manifest_file</span>  <span class="o">=</span> <span class="s2">&quot;init.pp&quot;</span>
-</span><span class='line'>    <span class="n">puppet</span><span class="o">.</span><span class="n">options</span> <span class="o">=</span> <span class="o">[</span><span class="s2">&quot;--fileserverconfig=/vagrant/puppet/fileserver.conf&quot;</span><span class="o">]</span>
-</span><span class='line'>  <span class="k">end</span>
-</span><span class='line'><span class="k">end</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>Then run the following to launch the instance from your project root &ndash;</p>
-
-<figure class='code'><figcaption><span>launch EC2 instance</span><a href='https://github.com/mitchellh/vagrant-aws'>link</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="err">$</span> <span class="n">vagrant</span> <span class="n">up</span> <span class="o">--</span><span class="n">provider</span><span class="o">=</span><span class="n">aws</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>And there you have it ! You can ssh into the instance with the following &ndash;</p>
-
-<figure class='code'><figcaption><span>ssh into the EC2 instance</span><a href='https://github.com/mitchellh/vagrant-aws'>link</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="err">$</span> <span class="n">vagrant</span> <span class="n">ssh</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>Enjoy!</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/05/07/hi/">Hi!</a></h1>
-    
-    
-      <p class="meta">
-        
 
 
 
@@ -1111,33 +928,34 @@ The nginx.conf file above specifies the web server should listen on port 80 and 
   
 
 
-<time datetime="2013-05-07T12:22:00+01:00" pubdate data-updated="true">May 7<span>th</span>, 2013</time>
-        
-      </p>
+<time datetime="2013-05-16T18:02:00+01:00" pubdate data-updated="true">May 16<span>th</span>, 2013</time>
+      
+
+
+    </p>
     
-  </header>
-
-
-  <div class="entry-content"><p>Hi! my name is Peter Idah. I am a Linux DevOps Engineer currently based in London.</p>
-
-<p>I&rsquo;m setting up this blog for a few reasons &ndash; to help me keep track of things I am working on, things I am learning and to share this experience with the hope that the information will be handy to someone else.</p>
-
-<p>I will try to keep the site updated as much as possible, so if you don’t find anything interesting today, please come back again.</p>
-
-<p>Thanks for dropping by !</p>
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://yoursite.com/blog/2013/05/16/deploying-node-dot-js-plus-nginx-plus-upstart-plus-monit-on-ec2-with-puppet-and-vagrant/" data-via="" data-counturl="http://yoursite.com/blog/2013/05/16/deploying-node-dot-js-plus-nginx-plus-upstart-plus-monit-on-ec2-with-puppet-and-vagrant/" >Tweet</a>
+  
+  
+  
 </div>
-  
-  
 
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2013/05/07/automated-deployment-of-aws-ec2-instances-with-vagrant-and-puppet/" title="Previous Post: Automated deployment of AWS EC2 instances with vagrant and puppet">&laquo; Automated deployment of AWS EC2 instances with vagrant and puppet</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2013/10/21/devops101-coming-soon/" title="Next Post: DevOps101 coming soon">DevOps101 coming soon &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
 
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="archives">Blog Archives</a>
-    
-  </div>
 </div>
+
 <aside class="sidebar">
   
     <section>
@@ -1169,6 +987,7 @@ The nginx.conf file above specifies the web server should listen on port 80 and 
 
   
 </aside>
+
 
     </div>
   </div>
