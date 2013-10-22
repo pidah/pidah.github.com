@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[DevOps Diary]]></title>
   <link href="http://pidah.github.io/atom.xml" rel="self"/>
   <link href="http://pidah.github.io/"/>
-  <updated>2013-10-22T15:38:33+01:00</updated>
+  <updated>2013-10-22T18:55:48+01:00</updated>
   <id>http://pidah.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Peter Idah]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
