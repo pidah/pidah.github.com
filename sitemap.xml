@@ -29,16 +29,22 @@
         <lastmod>2013-12-11T01:50:10+00:00</lastmod>
     </url>
     <url>
+        <loc>
+            http://www.devopsdiary.com/blog/2014/01/09/we-use-puppet-chef-and-a-grain-of-salt/
+        </loc>
+        <lastmod>2014-01-13T12:48:26+00:00</lastmod>
+    </url>
+    <url>
         <loc>http://www.devopsdiary.com/archives/</loc>
-        <lastmod>2013-12-11T01:50:10+00:00</lastmod>
+        <lastmod>2014-01-13T12:48:26+00:00</lastmod>
     </url>
     <url>
         <loc>http://www.devopsdiary.com/blog/archives/</loc>
-        <lastmod>2013-12-11T01:50:10+00:00</lastmod>
+        <lastmod>2014-01-13T12:48:26+00:00</lastmod>
     </url>
     <url>
         <loc>http://www.devopsdiary.com/</loc>
-        <lastmod>2013-12-11T01:50:10+00:00</lastmod>
+        <lastmod>2014-01-13T12:48:26+00:00</lastmod>
     </url>
     <url>
         <loc>http://www.devopsdiary.com/robots.txt</loc>

@@ -9,7 +9,7 @@
   <meta name="author" content="Peter Idah">
 
   
-  <meta name="description" content="Usain Bolts is probably my favourite athlete of all time. I mean, it&rsquo;s hard not to like a guy who wins gold medals consecutively. He makes the &hellip;">
+  <meta name="description" content="Choice is great, as long as you make a great choice. In the configuration management tools space we are spoilt for choice. This wasn&rsquo;t so a &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -75,6 +75,75 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/01/09/we-use-puppet-chef-and-a-grain-of-salt/">OH: We Use Puppet, Chef and a Grain of Salt.</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-01-09T06:54:00+00:00" pubdate data-updated="true">Jan 9<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Choice is great, as long as you make a great choice.</p>
+
+<p>In the configuration management tools space we are spoilt for choice. This wasn&rsquo;t so a couple of years back. I would never want to go back to those hand-cranking days where deployment and release management tasks were simply a nightmare.</p>
+
+<p>But with choices, an added responsibiity falls upon our shoulders to actually make a choice and stick with it.</p>
+
+<p>Of recent I have been noticing a trend in various projects. I joined a startup team last year and was grokking through the infrastructure codebase and noticed that we had some &ldquo;manifests of puppet and chef recipes&rdquo;. When I asked why this was so, I got a response along the lines of puppet rocks at doing &ldquo;x&rdquo; stuff and chef was awesome at doing &ldquo;y&rdquo; stuff.</p>
+
+<p>In another company I found a mix of puppet and ansible code in the infrastructure repo. Again I asked, and got a response along the lines of ansible was good at doing &ldquo;x&rdquo; stuff while puppet aced &ldquo;y&rdquo; stuff.</p>
+
+<p>A few days ago I came across a company that was using chef, puppet and salt! At that point I decided this has just got to stop and here is the rant:)</p>
+
+<p>One of the reasons we roll-out infrastructure as code today is because it allows us to have a single source of truth that prescribes how a company&rsquo;s infrastructure is provisioned and our applications are deployed. Oxford English Dictionary defines prescribe as &ldquo;STATE AUTHORITATIVELY or as a rule that (an action or procedure) should be carried out.&rdquo;</p>
+
+<p>Having bits and pieces of infrastructure coded using various configuration management tools eventually leads to attrition, where the infrastructure code is reduced from its&#8217; authoritative stance to a bunch of opinions.</p>
+
+<p>The configuration management space is a broad category with various tools providing complementary features and you sometimes need to daisy-chain a few together to achieve the required results. However, there is a lot of overlap and the tools should be selected carefully ensuring functionality duplication is reduced to the bare minimum. Having a git repo that includes scripts for deploying nginx with puppet and chef for the same infrastructure is not what you want to do.</p>
+
+<p>A few things to note when selecting configuration management tools:</p>
+
+<ul>
+<li><p>Consider the features you need. You might need a tool that does provisioning, orchestration and scales well on public/private cloud infrastructure. The more features you can effectively nail down with one tool the better.</p></li>
+<li><p>Consider ease of use and learning curve. Hi-five to you if everyone defaults to using the selected tool because it is easy or easy to learn. Selecting a tool along the path of least resistance bolsters productivity.</p></li>
+<li><p>Consider the culture of the company. Each tool embraces a slightly different philosophy and paradigm. Select a tool that is in sync with the culture you are trying to elicit.</p></li>
+<li><p>Consider the skills available in the company. Selecting a tool built around a language that developers and operations folk are comfortable with promotes convergence of ideas and practices amongst the two camps.</p></li>
+<li><p>Consider the hiring challenge. Engineers come and go. Being able to easily source talent skilled in the tool selected should not be over-looked.</p></li>
+<li><p>Consider the level of support required and available for your selected tool. The best tools are transparent and get out of the engineers way. The less time spent figuring out a.k.a googling for solutions the better.</p></li>
+<li><p>Consider your companys&#8217; future and the selected tools&#8217; roadmap. The communities around some tools are very active and are possibly evolving in a way that is in alignment with your projected infrastructure trajectory.</p></li>
+</ul>
+
+
+<p>I love hacking on new tools and my favourite toy changes all the time. However when it comes to business infrastructure, lets play fair – one game at a time! ^_^</p>
+
+<p>If you like this post, <a href="http://www.devops101.com">sign-up</a> for my upcoming book <a href="http://www.devops101.com">&ldquo;DevOps 101, An Introduction to DevOps Culture and Practice&rdquo;</a></p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -1284,6 +1353,10 @@ The nginx.conf file above specifies the web server should listen on port 80 and 
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2014/01/09/we-use-puppet-chef-and-a-grain-of-salt/">OH: We use puppet, chef and a grain of salt.</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2013/12/11/2013/">2013 – DevOps Retrospective</a>
       </li>
     
@@ -1297,10 +1370,6 @@ The nginx.conf file above specifies the web server should listen on port 80 and 
     
       <li class="post">
         <a href="/blog/2013/05/16/deploying-node-dot-js-plus-nginx-plus-upstart-plus-monit-on-ec2-with-puppet-and-vagrant/">Deploying nodejs nginx upstart monit redis on ec2 with puppet and vagrant</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2013/05/07/automated-deployment-of-aws-ec2-instances-with-vagrant-and-puppet/">Automated deployment of AWS EC2 instances with vagrant and puppet</a>
       </li>
     
   </ul>
@@ -1328,7 +1397,7 @@ The nginx.conf file above specifies the web server should listen on port 80 and 
     </div>
   </div>
   <footer role="contentinfo"><p>
-  Copyright &copy; 2013 - Peter Idah -
+  Copyright &copy; 2014 - Peter Idah -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
 </p>
 
