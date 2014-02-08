@@ -4,7 +4,7 @@
   <title><![CDATA[DevOps Diary]]></title>
   <link href="http://www.devopsdiary.com/atom.xml" rel="self"/>
   <link href="http://www.devopsdiary.com/"/>
-  <updated>2014-01-18T12:22:36+00:00</updated>
+  <updated>2014-02-08T22:50:04+00:00</updated>
   <id>http://www.devopsdiary.com/</id>
   <author>
     <name><![CDATA[Peter Idah]]></name>
@@ -990,7 +990,7 @@ The nginx.conf file above specifies the web server should listen on port 80 and 
 </span></code></pre></td></tr></table></div></figure>
 
 
-<p>The next step is to setup your local environment with AWS credentials. Many projects would likely commit their Vagrant configuration to some version control repository, it&rsquo;s best to reference your local environment for the required keys. Add the following your local users&#8217; ~/.bash_profile file</p>
+<p>The next step is to setup your local environment with AWS credentials. Many projects would likely commit their Vagrant configuration to some version control repository. However it&rsquo;s best to reference your local environment for the required keys. To do so, add the following to your local users&#8217; ~/.profile file</p>
 
 <figure class='code'><figcaption><span>Configuring AWS Credentials on your local machine  </span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
